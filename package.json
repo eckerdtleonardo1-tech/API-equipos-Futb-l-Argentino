@@ -1,0 +1,24 @@
+{
+  "name": "api-futbol-argentino",
+  "version": "1.0.0",
+  "description": "REST API de fútbol argentino",
+  "main": "App.js",
+  "type": "module",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "node --watch App.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1",
+    "z": "^1.0.9",
+    "zod": "^4.6.7"
+  }
+}
